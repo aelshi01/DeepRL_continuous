@@ -16,8 +16,8 @@ TAU = 1e-3              # for soft update of target parameters
 LR_ACTOR = 1e-3         # learning rate of the actor 
 LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0        # L2 weight decay
-LEARN_EVERY = 20        # Update the networks 10 times after every 20 timesteps
-LEARN_NUMBER = 10       # Update the networks 10 times after every 20 timesteps
+LEARN_EVERY = 30        # Update the networks 10 times after every 30 timesteps
+LEARN_NUMBER = 20       # Update the networks 10 times after every 20 timesteps
 EPSILON = 1.0           # Noise factor
 EPSILON_DECAY = 0.999999  # Noise factor decay
 
